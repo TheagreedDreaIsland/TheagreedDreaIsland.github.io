@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://theagreedDreaIsland.github.io.git/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jul 2019 19:50:44 +0800</lastBuildDate>
+    
+	<atom:link href="https://theagreedDreaIsland.github.io.git/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo配合GitHub搭建博客（Windows 10）</title>
+      <link>https://theagreedDreaIsland.github.io.git/post/blog/</link>
+      <pubDate>Sat, 06 Jul 2019 19:50:44 +0800</pubDate>
+      
+      <guid>https://theagreedDreaIsland.github.io.git/post/blog/</guid>
+      <description>安装hugo 1.安装Chocolatey 以管理员身份运行cmd命令行 直接输入以下命令，回车。
+@&amp;quot;%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe&amp;quot; -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command &amp;quot;iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&amp;quot; &amp;amp;&amp;amp; SET &amp;quot;PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&amp;quot;  成功后，输入choco，会显示Chocolatey的版本。 均来自官网教程https://chocolatey.org/install。
+2.在安装好choco后，cmd下执行：
+choco install hugo -confirm  成功后，执行hugo version。会显示hugo版本号。</description>
+    </item>
+    
+  </channel>
+</rss>
